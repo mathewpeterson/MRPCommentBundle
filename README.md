@@ -1,0 +1,18 @@
+= MRPCommentBundle
+
+== Motivation
+I was not happy with the architecture with the other bundle(s) because they were nto easily extendable. 
+
+== This project is under active development.
+
+== Installation
+TBD
+
+== Documentation
+TBD
+
+== Roadmap
+TBD
+
+== License
+This bundle is under the MIT License.

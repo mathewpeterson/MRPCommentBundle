@@ -19,3 +19,4 @@ install:
 
 script:
   - vendor/bin/php-cs-fixer --diff --dry-run -v fix
+  - vendor/bin/phpunit --stop-on-error --stop-on-failure

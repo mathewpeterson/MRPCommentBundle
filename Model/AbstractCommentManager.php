@@ -8,7 +8,6 @@
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
-
 namespace MRP\Bundle\MRPCommentBundle\Model;
 
 use Doctrine\Common\Collections\ArrayCollection;
@@ -53,7 +52,7 @@ abstract class AbstractCommentManager implements CommentManagerInterface
     }
 
     /**
-     * @param ThreadInterface $thread
+     * @param ThreadInterface  $thread
      * @param CommentInterface $parentComment
      *
      * @return CommentInterface
@@ -73,22 +72,18 @@ abstract class AbstractCommentManager implements CommentManagerInterface
 
     /**
      * @param CommentInterface $comment
-     *
-     * @return null
      */
     abstract public function save(CommentInterface $comment);
 
     /**
      * @param CommentInterface $comment
-     *
-     * @return null
      */
     abstract public function delete(CommentInterface $comment);
 
     /**
      * @param CommentInterface $comment
      *
-     * @return boolean
+     * @return bool
      */
     public function flag(CommentInterface $comment)
     {

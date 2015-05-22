@@ -8,13 +8,12 @@
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
-
 namespace MRP\Bundle\MRPCommentBundle\Model;
 
 use MyCLabs\Enum\Enum;
 
 /**
- * Class CommentStatus
+ * Class CommentStatus.
  *
  * @method static CommentStatus INACTIVE()
  * @method static CommentStatus ACTIVE()
@@ -25,8 +24,8 @@ use MyCLabs\Enum\Enum;
 final class CommentStatus extends Enum
 {
     const INACTIVE = 0;
-    const ACTIVE   = 1;
-    const SPAM     = 2;
-    const FLAGGED  = 3;
-    const DELETED  = 4;
+    const ACTIVE = 1;
+    const SPAM = 2;
+    const FLAGGED = 3;
+    const DELETED = 4;
 }

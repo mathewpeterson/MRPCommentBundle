@@ -8,14 +8,13 @@
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
-
 namespace MRP\Bundle\MRPCommentBundle\Model;
 
 use Doctrine\Common\Persistence\ObjectRepository;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 /**
- * Class AbstractThreadManager
+ * Class AbstractThreadManager.
  */
 abstract class AbstractThreadManager implements ThreadManagerInterface
 {
@@ -61,8 +60,6 @@ abstract class AbstractThreadManager implements ThreadManagerInterface
 
     /**
      * @param ThreadInterface $thread
-     *
-     * @return null
      */
     abstract public function save(ThreadInterface $thread);
 }

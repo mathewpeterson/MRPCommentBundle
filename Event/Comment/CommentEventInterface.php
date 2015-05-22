@@ -8,13 +8,12 @@
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
-
 namespace MRP\Bundle\MRPCommentBundle\Event\Comment;
 
 use MRP\Bundle\MRPCommentBundle\Model\CommentInterface;
 
 /**
- * Interface CommentEventInterface
+ * Interface CommentEventInterface.
  */
 interface CommentEventInterface
 {
@@ -24,7 +23,6 @@ interface CommentEventInterface
     public function getComment();
 
     /**
-     * @return null
      */
     public function abortPersistence();
 

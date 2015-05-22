@@ -8,14 +8,13 @@
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
-
 namespace MRP\Bundle\MRPCommentBundle\Event\Thread;
 
 use MRP\Bundle\MRPCommentBundle\Model\ThreadInterface;
 use Symfony\Component\EventDispatcher\Event;
 
 /**
- * Class AbstractThreadEvent
+ * Class AbstractThreadEvent.
  */
 abstract class AbstractThreadEvent extends Event implements ThreadEventInterface
 {

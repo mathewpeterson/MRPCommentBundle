@@ -8,11 +8,10 @@
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
-
 namespace MRP\Bundle\MRPCommentBundle\Exception\Thread;
 
 /**
- * Class ThreadNotFoundException
+ * Class ThreadNotFoundException.
  */
 class ThreadNotFoundException extends AbstractThreadException
 {

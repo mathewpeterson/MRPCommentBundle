@@ -8,11 +8,10 @@
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
-
 namespace MRP\Bundle\MRPCommentBundle\Model;
 
 /**
- * Class AbstractComment
+ * Class AbstractComment.
  */
 abstract class AbstractComment implements CommentInterface
 {
@@ -199,7 +198,7 @@ abstract class AbstractComment implements CommentInterface
      */
     public function setStatus(CommentStatus $status)
     {
-        $this->status = (int)$status->getValue();
+        $this->status = (int) $status->getValue();
 
         return $this;
     }

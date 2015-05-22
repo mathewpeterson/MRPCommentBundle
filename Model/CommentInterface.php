@@ -58,6 +58,18 @@ interface CommentInterface
     public function setBody($body);
 
     /**
+     * @return CommentInterface|null
+     */
+    public function getParent();
+
+    /**
+     * @param CommentInterface $comment
+     *
+     * @return self
+     */
+    public function setParent(CommentInterface $comment = null);
+
+    /**
      * @return \DateTime
      */
     public function getCreated();

@@ -15,6 +15,12 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class CommentStatus
+ *
+ * @method static CommentStatus INACTIVE()
+ * @method static CommentStatus ACTIVE()
+ * @method static CommentStatus SPAM()
+ * @method static CommentStatus FLAGGED()
+ * @method static CommentStatus DELETED()
  */
 final class CommentStatus extends Enum
 {

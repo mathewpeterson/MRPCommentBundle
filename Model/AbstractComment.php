@@ -37,6 +37,11 @@ abstract class AbstractComment implements CommentInterface
     protected $body;
 
     /**
+     * @var CommentInterface
+     */
+    protected $parent;
+
+    /**
      * @var \DateTime
      */
     protected $created;
@@ -115,6 +120,26 @@ abstract class AbstractComment implements CommentInterface
     public function setBody($body)
     {
         $this->body = $body;
+
+        return $this;
+    }
+
+    /**
+     * @return CommentInterface
+     */
+    public function getParent()
+    {
+        return $this->parent;
+    }
+
+    /**
+     * @param CommentInterface $parent
+     *
+     * @return CommentInterface
+     */
+    public function setParent(CommentInterface $parent = null)
+    {
+        $this->parent = $parent;
 
         return $this;
     }

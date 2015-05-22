@@ -1,18 +1,18 @@
-= MRPCommentBundle
+# MRPCommentBundle
 
-== Motivation
-I was not happy with the architecture with the other bundle(s) because they were nto easily extendable. 
+## Motivation
+I was not happy with the architecture with the other bundle(s) because they were not easily extendable. 
 
-== This project is under active development.
+## This project is under active development.
 
-== Installation
+## Installation
 TBD
 
-== Documentation
+## Documentation
 TBD
 
-== Roadmap
+## Roadmap
 TBD
 
-== License
+## License
 This bundle is under the MIT License.

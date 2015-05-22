@@ -1,0 +1,19 @@
+{
+    "name": "mrp/mrp-comment-bundle",
+    "description": "A Symfony2 Bundle to add threaded comments to your applications.",
+    "require": {
+        "symfony/symfony": "~2.7@beta",
+        "symfony/event-dispatcher": "~3.0@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathew Peterson",
+            "email": "mathewpeterson@me.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

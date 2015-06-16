@@ -23,7 +23,7 @@ interface ThreadInterface
     /**
      * @param string $id
      *
-     * @return self
+     * @return ThreadInterface
      */
     public function setId($id);
 
@@ -35,7 +35,7 @@ interface ThreadInterface
     /**
      * @param ThreadTypeInterface $threadType
      *
-     * @return self
+     * @return ThreadInterface
      */
     public function setThreadType(ThreadTypeInterface $threadType);
 
@@ -47,7 +47,7 @@ interface ThreadInterface
     /**
      * @param CommentableObjectInterface $object
      *
-     * @return self
+     * @return ThreadInterface
      */
     public function setThreadTypeId(CommentableObjectInterface $object);
 
@@ -59,7 +59,7 @@ interface ThreadInterface
     /**
      * @param \DateTime $created
      *
-     * @return mixed
+     * @return ThreadInterface
      */
     public function setCreated(\DateTime $created);
 
@@ -71,7 +71,7 @@ interface ThreadInterface
     /**
      * @param \DateTime $updated
      *
-     * @return mixed
+     * @return ThreadInterface
      */
     public function setUpdated(\DateTime $updated);
 }

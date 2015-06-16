@@ -1,0 +1,11 @@
+mrp_comment:
+    db_driver: orm|mongodb
+    class:
+        model:
+            thread:
+            thread_repository:
+            thread_manager:
+            comment:
+            comment_repository:
+            comment_manager:
+

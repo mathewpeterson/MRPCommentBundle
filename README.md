@@ -13,7 +13,11 @@ TBD
 TBD
 
 ## Roadmap
-TBD
+
+	* ACL Voters
+	* Spam Detection
+	* Markup
+	* Sorting
 
 ## License
 This bundle is under the MIT License.
